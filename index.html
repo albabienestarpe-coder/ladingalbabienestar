@@ -4,7 +4,14 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="ALBA, un espacio de bienestar para pausar, respirar y volver a ti.">
-  <title>ALBA — Tu pausa, tu momento</title>
+  <meta name="theme-color" content="#f8f1e8">
+  <title>ALBA - Tu pausa, tu momento</title>
+  <link rel="icon" href="assets/ICONOS/logo48x48.ico" sizes="48x48" type="image/x-icon">
+  <link rel="icon" href="assets/ICONOS/logo32x32.ico" sizes="32x32" type="image/x-icon">
+  <link rel="icon" href="assets/ICONOS/logo16x16.ico" sizes="16x16" type="image/x-icon">
+  <link rel="shortcut icon" href="assets/ICONOS/logo48x48.ico" type="image/x-icon">
+  <link rel="apple-touch-icon" href="assets/ICONOS/logo256x256.ico" sizes="256x256">
+  <link rel="manifest" href="site.webmanifest">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;600&family=Italiana&display=swap" rel="stylesheet">
@@ -12,69 +19,476 @@
 </head>
 <body>
   <header class="topbar">
-    <a class="brand" href="#inicio" aria-label="ALBA inicio"><span>☼</span>ALBA<small>TU PAUSA, TU MOMENTO.</small></a>
-    <button class="menu" aria-label="Abrir menú" aria-expanded="false"><i></i><i></i></button>
-    <nav><a href="#inicio">Inicio</a><a href="#experiencias">Experiencias</a><a href="#alba">Alba</a><a href="#espacio">El espacio</a><a href="#ubicacion">Ubicación</a></nav>
+    <a class="brand" href="#inicio" aria-label="ALBA inicio">
+      <img class="brand-logo" src="assets/LOGO/LOGO/Logo%20ALBA_SVG.svg" alt="ALBA">
+    </a>
+
+    <button class="menu" aria-label="Abrir menú" aria-expanded="false">
+      <i></i>
+      <i></i>
+    </button>
+
+    <nav>
+      <a href="#inicio">Inicio</a>
+      <a href="#experiencias">Experiencias</a>
+      <a href="#alba">Alba</a>
+      <a href="#espacio">El espacio</a>
+      <a href="#ubicacion">Ubicación</a>
+    </nav>
+
     <a class="btn top-cta" href="#reserva">Reserva tu momento</a>
   </header>
 
   <main>
     <section id="inicio" class="hero numbered" data-n="01. INICIO">
-      <img src="assets/hero.png" alt="Sillón de descanso frente a los Andes al amanecer">
-      <div class="hero-copy"><p class="eyebrow">UN NUEVO COMIENZO</p><h1>Tu pausa empieza aquí.</h1><p>Un espacio para bajar el ritmo, respirar y sentirte bien.</p><div class="actions"><a class="btn" href="#alba">Descubre ALBA</a><a class="btn ghost" href="#experiencias">Ver experiencias</a></div></div>
+      <picture>
+        <source media="(max-width: 600px)" srcset="assets/IMAGENES/RECURSOS%20PARA%20WEB/01_INICIO/IMAGEN%201_PORTADAPRINCIPAL_MOVIL.jpg">
+        <source media="(max-width: 900px)" srcset="assets/IMAGENES/RECURSOS%20PARA%20WEB/01_INICIO/IMAGEN%201_PORTADAPRINCIPAL_TABLETA.jpg">
+        <img src="assets/IMAGENES/RECURSOS%20PARA%20WEB/01_INICIO/IMAGEN%201_PORTADAPRINCIPAL_DESKTOP.jpg" alt="Sillón de descanso frente a los Andes al amanecer">
+      </picture>
+
+      <div class="hero-copy">
+        <p class="eyebrow">UN NUEVO COMIENZO</p>
+        <h1>Tu pausa empieza aquí.</h1>
+        <p>Un espacio para bajar el ritmo, respirar y sentirte bien.</p>
+
+        <div class="actions">
+          <a class="btn" href="#alba">Descubre ALBA</a>
+          <a class="btn ghost" href="#experiencias">Ver experiencias</a>
+        </div>
+      </div>
     </section>
 
     <section class="pause numbered split" data-n="02. UNA PAUSA PARA TI">
-      <div class="copy"><p class="kicker">Haz espacio para ti</p><h2>A veces, solo necesitas parar.</h2><p>Entre pendientes, compras y reuniones, hay algo que solemos dejar para después: nosotros mismos.</p><p><strong>ALBA nace para regalarte ese momento.</strong></p><div class="mini-values"><span>Ⅱ<small>PARA.</small></span><span>◌<small>RESPIRA.</small></span><span>☼<small>DISFRUTA.</small></span></div></div>
-      <img src="assets/rest.png" alt="Mujer descansando en un sillón de masajes">
+      <div class="copy">
+        <p class="kicker">Haz espacio para ti</p>
+        <h2>A veces, solo necesitas parar.</h2>
+        <p>Entre pendientes, compras y reuniones, hay algo que solemos dejar para después: nosotros mismos.</p>
+        <p><strong>ALBA nace para regalarte ese momento.</strong></p>
+
+        <div class="mini-values">
+          <span>Ⅱ<small>PARA.</small></span>
+          <span>◌<small>RESPIRA.</small></span>
+          <span>☼<small>DISFRUTA.</small></span>
+        </div>
+      </div>
+
+      <picture>
+        <source media="(max-width: 600px)" srcset="assets/IMAGENES/RECURSOS%20PARA%20WEB/02_UNA%20PAUSA%20PARA%20TI/IMAGEN%202_UNAPAUSAPARATI_MOVIL.jpg">
+        <source media="(max-width: 900px)" srcset="assets/IMAGENES/RECURSOS%20PARA%20WEB/02_UNA%20PAUSA%20PARA%20TI/IMAGEN%202_UNAPAUSAPARATI_TABLETA.jpg">
+        <img src="assets/IMAGENES/RECURSOS%20PARA%20WEB/02_UNA%20PAUSA%20PARA%20TI/IMAGEN%202_UNAPAUSAPARATI_DESKTOP.jpg" alt="Mujer descansando en un sillón de masajes">
+      </picture>
     </section>
 
     <section id="alba" class="about numbered" data-n="03. ¿QUÉ ES ALBA?">
-      <div><p class="kicker">Bienestar cotidiano</p><h2>Bienestar que cabe en tu día.</h2><p>Una experiencia diseñada para acompañarte en esos pequeños momentos en los que necesitas detenerte.</p><p>Calma, relajación y cuidado personal sin salir de tu rutina.</p></div>
-      <div class="value-cards"><article><b>☼</b><h3>Pausa</h3><p>Un momento para bajar el ritmo.</p></article><article><b>♧</b><h3>Bienestar</h3><p>Experiencias pensadas para ayudarte.</p></article><article><b>◌</b><h3>Renovación</h3><p>Vuelve a tu día sintiéndote más ligero.</p></article></div>
-      <img src="assets/interior.png" alt="Interior cálido del espacio ALBA">
+      <div>
+        <p class="kicker">Bienestar cotidiano</p>
+        <h2>Bienestar que cabe en tu día.</h2>
+        <p>Una experiencia diseñada para acompañarte en esos pequeños momentos en los que necesitas detenerte.</p>
+        <p>Calma, relajación y cuidado personal sin salir de tu rutina.</p>
+      </div>
+
+      <div class="value-cards">
+        <article>
+          <b>☼</b>
+          <h3>Pausa</h3>
+          <p>Un momento para bajar el ritmo.</p>
+        </article>
+
+        <article>
+          <b>♧</b>
+          <h3>Bienestar</h3>
+          <p>Experiencias pensadas para ayudarte.</p>
+        </article>
+
+        <article>
+          <b>◌</b>
+          <h3>Renovación</h3>
+          <p>Vuelve a tu día sintiéndote más ligero.</p>
+        </article>
+      </div>
+
+      <picture>
+        <source media="(max-width: 600px)" srcset="assets/IMAGENES/RECURSOS%20PARA%20WEB/03_QUE%20ES%20ALBA/IMAGEN%203_QUEESALBA_MOVIL.jpg">
+        <source media="(max-width: 900px)" srcset="assets/IMAGENES/RECURSOS%20PARA%20WEB/03_QUE%20ES%20ALBA/IMAGEN%203_QUEESALBA_TABLETA.jpg">
+        <img src="assets/IMAGENES/RECURSOS%20PARA%20WEB/03_QUE%20ES%20ALBA/IMAGEN%203_QUEESALBA_DESKTOP.jpg" alt="Interior cálido del espacio ALBA">
+      </picture>
     </section>
 
     <section id="experiencias" class="experiences numbered" data-n="04. EXPERIENCIAS">
-      <div class="section-head"><p class="kicker">Elige tu ritmo</p><h2>¿Cómo quieres sentirte?</h2></div>
-      <div class="experience-grid"><article><div class="crop c1"></div><h3>Relajar</h3><p>Libera tensión y deja que tu cuerpo descanse.</p><a href="#reserva">Conoce la experiencia →</a></article><article><div class="crop c2"></div><h3>Recargar</h3><p>Un momento para recuperar energía y continuar.</p><a href="#reserva">Conoce la experiencia →</a></article><article><div class="crop c3"></div><h3>Desconectar</h3><p>Olvídate por unos minutos de todo lo demás.</p><a href="#reserva">Conoce la experiencia →</a></article></div>
+      <div class="section-head">
+        <p class="kicker">Elige tu ritmo</p>
+        <h2>¿Cómo quieres sentirte?</h2>
+      </div>
+
+      <div class="experience-grid">
+        <article>
+          <div class="crop c1"></div>
+          <h3>Relajar</h3>
+          <p>Libera tensión y deja que tu cuerpo descanse.</p>
+          <a href="#reserva">Conoce la experiencia →</a>
+        </article>
+
+        <article>
+          <div class="crop c2"></div>
+          <h3>Recargar</h3>
+          <p>Un momento para recuperar energía y continuar.</p>
+          <a href="#reserva">Conoce la experiencia →</a>
+        </article>
+
+        <article>
+          <div class="crop c3"></div>
+          <h3>Desconectar</h3>
+          <p>Olvídate por unos minutos de todo lo demás.</p>
+          <a href="#reserva">Conoce la experiencia →</a>
+        </article>
+      </div>
     </section>
 
     <section class="steps numbered" data-n="05. ¿CÓMO FUNCIONA?">
-      <div class="section-head"><p class="kicker">Es sencillo</p><h2>Tu pausa empieza aquí.</h2></div>
-      <div class="step-grid"><article><b>⌖</b><span>01</span><h3>Llega</h3><p>Encuéntranos mientras recorres el mall.</p></article><article><b>☝</b><span>02</span><h3>Elige</h3><p>Selecciona la experiencia que quieres vivir.</p></article><article><b>♨</b><span>03</span><h3>Relájate</h3><p>Deja que el cuerpo descanse.</p></article><article><b>☼</b><span>04</span><h3>Vuelve</h3><p>Continúa tu día con otra energía.</p></article></div><a class="btn" href="#reserva">Encuentra tu momento</a>
+      <div class="section-head">
+        <p class="kicker">Es sencillo</p>
+        <h2>Tu pausa empieza aquí.</h2>
+      </div>
+
+      <div class="step-grid">
+        <article>
+          <b>⌖</b>
+          <span>01</span>
+          <h3>Llega</h3>
+          <p>Encuéntranos mientras recorres el mall.</p>
+        </article>
+
+        <article>
+          <b>☝</b>
+          <span>02</span>
+          <h3>Elige</h3>
+          <p>Selecciona la experiencia que quieres vivir.</p>
+        </article>
+
+        <article>
+          <b>♨</b>
+          <span>03</span>
+          <h3>Relájate</h3>
+          <p>Deja que el cuerpo descanse.</p>
+        </article>
+
+        <article>
+          <b>☼</b>
+          <span>04</span>
+          <h3>Vuelve</h3>
+          <p>Continúa tu día con otra energía.</p>
+        </article>
+      </div>
+
+      <a class="btn" href="#reserva">Encuentra tu momento</a>
     </section>
 
     <section id="espacio" class="space numbered split" data-n="06. EL ESPACIO">
-      <div class="copy"><p class="kicker">Una atmósfera propia</p><h2>Un pequeño escape dentro de tu día.</h2><p>Diseñamos cada detalle para que la calma comience antes de sentarte.</p><ul><li>Luz cálida</li><li>Materiales suaves</li><li>Aromas sutiles</li><li>Música tranquila</li><li>Espacios pensados para desconectar</li></ul></div>
-      <div class="mosaic"><div></div><div></div><div></div></div>
+      <div class="copy">
+        <p class="kicker">Una atmósfera propia</p>
+        <h2>Un pequeño escape dentro de tu día.</h2>
+        <p>Diseñamos cada detalle para que la calma comience antes de sentarte.</p>
+
+        <ul>
+          <li>Luz cálida</li>
+          <li>Materiales suaves</li>
+          <li>Aromas sutiles</li>
+          <li>Música tranquila</li>
+          <li>Espacios pensados para desconectar</li>
+        </ul>
+      </div>
+
+      <div class="mosaic">
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
     </section>
 
     <section class="why numbered split" data-n="07. ¿POR QUÉ ALBA?">
-      <div class="copy"><p class="kicker">Bienestar a tu alcance</p><h2>Tu bienestar también puede ser parte de tu día.</h2><p>No necesitas esperar al fin de semana, hacer un viaje ni encontrar una hora libre.</p><p><strong>ALBA está donde ya estás.</strong></p></div>
-      <div class="reasons"><article><b>⌖</b><div><h3>Accesible</h3><p>Bienestar integrado a tu rutina.</p></div></article><article><b>☆</b><div><h3>Premium</h3><p>Una experiencia cuidada en cada detalle.</p></div></article><article><b>♧</b><div><h3>Sensorial</h3><p>Un espacio pensado para desconectar.</p></div></article><article><b>◯</b><div><h3>Contemporáneo</h3><p>Adaptado a la vida actual.</p></div></article></div>
+      <div class="copy">
+        <p class="kicker">Bienestar a tu alcance</p>
+        <h2>Tu bienestar también puede ser parte de tu día.</h2>
+        <p>No necesitas esperar al fin de semana, hacer un viaje ni encontrar una hora libre.</p>
+        <p><strong>ALBA está donde ya estás.</strong></p>
+      </div>
+
+      <div class="reasons">
+        <article>
+          <b>⌖</b>
+          <div>
+            <h3>Accesible</h3>
+            <p>Bienestar integrado a tu rutina.</p>
+          </div>
+        </article>
+
+        <article>
+          <b>☆</b>
+          <div>
+            <h3>Premium</h3>
+            <p>Una experiencia cuidada en cada detalle.</p>
+          </div>
+        </article>
+
+        <article>
+          <b>♧</b>
+          <div>
+            <h3>Sensorial</h3>
+            <p>Un espacio pensado para desconectar.</p>
+          </div>
+        </article>
+
+        <article>
+          <b>◯</b>
+          <div>
+            <h3>Contemporáneo</h3>
+            <p>Adaptado a la vida actual.</p>
+          </div>
+        </article>
+      </div>
     </section>
 
-    <section id="ubicacion" class="location numbered" data-n="08. UBICACIÓN">
-      <div><p class="kicker">Estamos cerca</p><h2>Encuentra tu ALBA.</h2><h3>Mall de Trujillo</h3><p>Nivel 2 · Local 215</p><p class="hours"><strong>Horarios</strong><br>Lunes a domingo<br>10:00 a.m. – 10:00 p.m.</p><a class="btn" href="https://maps.google.com" target="_blank" rel="noreferrer">Cómo llegar ↗</a></div>
-      <div class="map" aria-label="Mapa ilustrativo"><span>●<small>ALBA</small></span></div><div class="location-img"></div>
-    </section>
+    <section id="ubicacion" class="location numbered" data-n="08. UBICACION">
+      <div class="location-intro">
+        <p class="kicker">Estamos cerca</p>
+        <h2>Encuentra tu ALBA.</h2>
+        <p>Selecciona un local para ver la informacion completa.</p>
 
+        <div class="location-options" role="list">
+          <button class="location-option" type="button" data-location="mall" aria-pressed="false">
+            Mall Aventura Plaza Trujillo
+          </button>
+          <button class="location-option" type="button" data-location="pizarro" aria-pressed="false">
+            Centro Comercial Plaza Pizarro Trujillo
+          </button>
+        </div>
+      </div>
+
+      <div class="location-detail" hidden>
+        <div class="location-info">
+          <p class="kicker">Local seleccionado</p>
+          <h3 data-location-name></h3>
+          <p data-location-address></p>
+          <p class="hours">
+            <strong>Horarios</strong><br>
+            <span data-location-hours></span>
+          </p>
+        </div>
+      </div>
+    </section>
     <section id="reserva" class="booking numbered" data-n="09. RESERVA">
-      <div><p class="kicker">Este momento es tuyo</p><h2>Regálate un momento.</h2><p>Elige tu experiencia y encuentra el momento que quieres dedicarte.</p></div>
-      <form id="booking-form"><label>Experiencia<select required><option value="">Selecciona una experiencia</option><option>Relax</option><option>Recarga</option><option>Desconexión</option></select></label><label>Fecha<input type="date" required></label><label>Hora<select required><option value="">Selecciona una hora</option><option>11:00</option><option>16:00</option><option>19:00</option></select></label><label>Duración<select required><option>20 minutos</option><option>40 minutos</option><option>60 minutos</option></select></label><label>Nombre<input placeholder="Escribe tu nombre" required></label><label>Celular<input type="tel" placeholder="Escribe tu número" required></label><button class="btn" type="submit">Reservar mi momento</button><p class="form-status" role="status"></p></form>
+      <div>
+        <p class="kicker">Este momento es tuyo</p>
+        <h2>Regálate un momento.</h2>
+        <p>Elige tu experiencia y encuentra el momento que quieres dedicarte.</p>
+      </div>
+
+      <form id="booking-form">
+        <label>
+          Experiencia
+          <select required>
+            <option value="">Selecciona una experiencia</option>
+            <option>Relax</option>
+            <option>Recarga</option>
+            <option>Desconexión</option>
+          </select>
+        </label>
+
+        <label>
+          Fecha
+          <input type="date" required>
+        </label>
+
+        <label>
+          Hora
+          <select required>
+            <option value="">Selecciona una hora</option>
+            <option>11:00</option>
+            <option>16:00</option>
+            <option>19:00</option>
+          </select>
+        </label>
+
+        <label>
+          Duración
+          <select required>
+            <option>20 minutos</option>
+            <option>40 minutos</option>
+            <option>60 minutos</option>
+          </select>
+        </label>
+
+        <label>
+          Nombre
+          <input placeholder="Escribe tu nombre" required>
+        </label>
+
+        <label>
+          Celular
+          <input type="tel" placeholder="Escribe tu número" required>
+        </label>
+
+        <button class="btn" type="submit">Reservar mi momento</button>
+        <p class="form-status" role="status"></p>
+      </form>
     </section>
 
-    <section class="faq numbered" data-n="10. PREGUNTAS FRECUENTES"><div class="section-head"><p class="kicker">Todo claro</p><h2>Queremos que solo tengas que preocuparte por disfrutar.</h2></div><div class="accordion"><details><summary>¿Qué experiencias ofrece ALBA?</summary><p>Sesiones de relajación, recarga y desconexión, adaptadas al tiempo que tengas.</p></details><details><summary>¿Cuánto dura cada experiencia?</summary><p>Puedes elegir sesiones de 20, 40 o 60 minutos.</p></details><details><summary>¿Necesito reservar?</summary><p>No es obligatorio, pero reservar asegura tu horario preferido.</p></details><details><summary>¿Dónde está ALBA?</summary><p>Nos encuentras en Mall de Trujillo, nivel 2, local 215.</p></details><details><summary>¿Puedo ir sin reserva?</summary><p>Sí, te atenderemos según disponibilidad.</p></details></div></section>
+    <section class="faq numbered" data-n="10. PREGUNTAS FRECUENTES">
+      <div class="section-head">
+        <p class="kicker">Todo claro</p>
+        <h2>Queremos que solo tengas que preocuparte por disfrutar.</h2>
+      </div>
 
-    <section class="gifts numbered" data-n="11. REGALA ALBA"><div><p class="kicker">Hay regalos que se sienten</p><h2>Regala un momento para ti.</h2></div><div class="gift-grid"><article><b>♧</b><h3>Regala relax</h3><p>Un momento para liberar tensión.</p></article><article><b>◌</b><h3>Regala una pausa</h3><p>Minutos solo para esa persona.</p></article><article><b>☼</b><h3>Regala bienestar</h3><p>Una experiencia para sentirse mejor.</p></article></div><a class="btn" href="#reserva">Regalar una experiencia</a></section>
+      <div class="accordion">
+        <details>
+          <summary>¿Qué experiencias ofrece ALBA?</summary>
+          <p>Sesiones de relajación, recarga y desconexión, adaptadas al tiempo que tengas.</p>
+        </details>
 
-    <section class="journal numbered" data-n="12. CONTENIDO / INSPIRACIÓN"><div class="section-head"><p class="kicker">Para volver a ti</p><h2>Pequeños momentos para sentirte mejor.</h2></div><div class="journal-grid"><article><div></div><h3>5 minutos para desconectar de tu día</h3><a href="#">Leer más →</a></article><article><div></div><h3>Por qué necesitamos hacer pausas</h3><a href="#">Leer más →</a></article><article><div></div><h3>Cómo liberar tensión después de un día largo</h3><a href="#">Leer más →</a></article><article><div></div><h3>Ideas para regalarte un momento</h3><a href="#">Leer más →</a></article></div></section>
+        <details>
+          <summary>¿Cuánto dura cada experiencia?</summary>
+          <p>Puedes elegir sesiones de 20, 40 o 60 minutos.</p>
+        </details>
 
-    <section class="social numbered split" data-n="13. INSTAGRAM + TIKTOK"><div class="copy"><p class="kicker">Seguimos cerca</p><h2>La calma también continúa contigo.</h2><p>Descubre nuevas experiencias, inspiración y pequeños momentos para volver a ti.</p><div class="social-links"><a href="#">◎ Instagram <small>@alba.tupausa</small></a><a href="#">♪ TikTok <small>@alba.tupausa</small></a></div></div><div class="phones"><div><span>ALBA</span><i></i><i></i><i></i><i></i></div><div><span>ALBA</span><i></i><i></i><i></i><i></i></div></div></section>
+        <details>
+          <summary>¿Necesito reservar?</summary>
+          <p>No es obligatorio, pero reservar asegura tu horario preferido.</p>
+        </details>
+
+        <details>
+          <summary>¿Dónde está ALBA?</summary>
+          <p>Nos encuentras en Mall de Trujillo, nivel 2, local 215.</p>
+        </details>
+
+        <details>
+          <summary>¿Puedo ir sin reserva?</summary>
+          <p>Sí, te atenderemos según disponibilidad.</p>
+        </details>
+      </div>
+    </section>
+
+    <section class="gifts numbered" data-n="11. REGALA ALBA">
+      <div>
+        <p class="kicker">Hay regalos que se sienten</p>
+        <h2>Regala un momento para ti.</h2>
+      </div>
+
+      <div class="gift-grid">
+        <article>
+          <b>♧</b>
+          <h3>Regala relax</h3>
+          <p>Un momento para liberar tensión.</p>
+        </article>
+
+        <article>
+          <b>◌</b>
+          <h3>Regala una pausa</h3>
+          <p>Minutos solo para esa persona.</p>
+        </article>
+
+        <article>
+          <b>☼</b>
+          <h3>Regala bienestar</h3>
+          <p>Una experiencia para sentirse mejor.</p>
+        </article>
+      </div>
+
+      <a class="btn" href="#reserva">Regalar una experiencia</a>
+    </section>
+
+    <section class="journal numbered" data-n="12. CONTENIDO / INSPIRACIÓN">
+      <div class="section-head">
+        <p class="kicker">Para volver a ti</p>
+        <h2>Pequeños momentos para sentirte mejor.</h2>
+      </div>
+
+      <div class="journal-grid">
+        <article>
+          <div></div>
+          <h3>5 minutos para desconectar de tu día</h3>
+          <a href="#">Leer más →</a>
+        </article>
+
+        <article>
+          <div></div>
+          <h3>Por qué necesitamos hacer pausas</h3>
+          <a href="#">Leer más →</a>
+        </article>
+
+        <article>
+          <div></div>
+          <h3>Cómo liberar tensión después de un día largo</h3>
+          <a href="#">Leer más →</a>
+        </article>
+
+        <article>
+          <div></div>
+          <h3>Ideas para regalarte un momento</h3>
+          <a href="#">Leer más →</a>
+        </article>
+      </div>
+    </section>
+
+    <section class="social numbered split" data-n="13. INSTAGRAM + TIKTOK">
+      <div class="copy">
+        <p class="kicker">Seguimos cerca</p>
+        <h2>La calma también continúa contigo.</h2>
+        <p>Descubre nuevas experiencias, inspiración y pequeños momentos para volver a ti.</p>
+
+        <div class="social-links">
+          <a href="#">◎ Instagram <small>@alba.tupausa</small></a>
+          <a href="#">♪ TikTok <small>@alba.tupausa</small></a>
+        </div>
+      </div>
+
+      <div class="phones">
+        <div class="instagram-phone">
+          <span>ALBA</span>
+          <img src="assets/IMAGENES/RECURSOS%20PARA%20WEB/13_INSTAGRAM%20+%20TIKTOK/01_INSTAGRAM/IMAGEN%201_INSTAGRAM_DESKTOP.jpg" alt="Vista previa de Instagram ALBA">
+        </div>
+
+        <div class="tiktok-phone">
+          <span>ALBA</span>
+          <img src="assets/IMAGENES/RECURSOS%20PARA%20WEB/13_INSTAGRAM%20+%20TIKTOK/02_TIKTOK/IMAGEN%20TIKTOK_DESKTOP.jpg" alt="Vista previa de TikTok ALBA">
+        </div>
+      </div>
+    </section>
   </main>
 
-  <footer class="numbered" data-n="14. FOOTER"><div class="footer-brand"><span>☼</span><strong>ALBA</strong><small>TU PAUSA, TU MOMENTO.</small><p>Siempre puedes empezar de nuevo.</p></div><div class="footer-links"><div><b>Experiencias</b><a href="#experiencias">Relajar</a><a href="#experiencias">Recargar</a><a href="#experiencias">Desconectar</a></div><div><b>ALBA</b><a href="#alba">Nosotros</a><a href="#espacio">El espacio</a><a href="#ubicacion">Ubicación</a></div><div><b>Ayuda</b><a href="#reserva">Contacto</a><a href="#reserva">Reservas</a><a href="#">Privacidad</a></div></div><p class="copyright">© 2026 ALBA. Todos los derechos reservados.</p></footer>
+  <footer class="numbered" data-n="14. FOOTER">
+    <div class="footer-brand">
+      <img class="footer-logo" src="assets/LOGO/LOGO/Logo%20ALBA_SVG.svg" alt="ALBA">
+      <p>Siempre puedes empezar de nuevo.</p>
+    </div>
+
+    <div class="footer-links">
+      <div>
+        <b>Experiencias</b>
+        <a href="#experiencias">Relajar</a>
+        <a href="#experiencias">Recargar</a>
+        <a href="#experiencias">Desconectar</a>
+      </div>
+
+      <div>
+        <b>ALBA</b>
+        <a href="#alba">Nosotros</a>
+        <a href="#espacio">El espacio</a>
+        <a href="#ubicacion">Ubicación</a>
+      </div>
+
+      <div>
+        <b>Ayuda</b>
+        <a href="#reserva">Contacto</a>
+        <a href="#reserva">Reservas</a>
+        <a href="#">Privacidad</a>
+      </div>
+    </div>
+
+    <p class="copyright">© 2026 ALBA. Todos los derechos reservados.</p>
+    <p class="developer-credit">Desarrollado por EACODE</p>
+  </footer>
+
   <script src="script.js"></script>
 </body>
 </html>
