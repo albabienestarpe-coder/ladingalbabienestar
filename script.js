@@ -148,15 +148,18 @@ const locations = {
     name: 'Mall Aventura Plaza Trujillo',
     address: 'Mall Aventura Plaza Trujillo',
     hours: 'Lunes a domingo, 10:00 a.m. - 10:00 p.m.',
+    map: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8089587.300646681!2d-88.80414497499999!3d-8.102112299999991!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91ad3dbb84162eaf%3A0xca9481ed99654e25!2sMallplaza%20Trujillo!5e0!3m2!1ses!2spe!4v1788297131635!5m2!1ses!2spe',
   },
   pizarro: {
     name: 'Centro Comercial Plaza Pizarro Trujillo',
     address: 'C.C. Portal F Pizarro, Trujillo',
     hours: 'Lunes a domingo, 10:00 a.m. - 10:00 p.m.',
+    map: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3949.921259195948!2d-79.0275466754409!3d-8.109500231134364!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91ad3d003ce9ff4d%3A0x58c985a063c2390e!2sC.C.%20Portal%20F%20Pizarro!5e0!3m2!1ses!2spe!4v1788297226641!5m2!1ses!2spe',
   },
 };
 
 const locationDetail = document.querySelector('.location-detail');
+const locationFrame = document.querySelector('.location-detail iframe');
 const locationName = document.querySelector('[data-location-name]');
 const locationAddress = document.querySelector('[data-location-address]');
 const locationHours = document.querySelector('[data-location-hours]');
@@ -174,6 +177,7 @@ document.querySelectorAll('.location-option').forEach(button => {
     locationName.textContent = location.name;
     locationAddress.textContent = location.address;
     locationHours.textContent = location.hours;
+    locationFrame.src = location.map;
     locationDetail.hidden = false;
   });
 });
